@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/3c4493b5f6.js"></script>
+    <title>instagram</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .background {
+        width: 100%;
+        height: 100%;
+        display: flex;
+      }
+      .background__green-size {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        background-color: #b7b51b;
+      }
+      .background__green {
+        display: flex;
+        width: 95px;
+        height: 110px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 82px;
+        left: 40px;
+      }
+      .background__green-dot {
+        display: flex;
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        flex-wrap: wrap;
+        margin-left: 5px;
+        margin-right: 5px;
+        z-index: 1;
+      }
+      .background__white-size {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background-color: #edf0f6;
+      }
+      .background__white {
+        display: flex;
+        width: 100px;
+        height: 110px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 10px;
+        right: 47px;
+      }
+      .background__white-dot {
+        display: flex;
+        width: 5px;
+        height: 5px;
+        background-color: grey;
+        border-radius: 50%;
+        flex-wrap: wrap;
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+      .instagram__feed {
+        width: 260px;
+        height: 540px;
+        background-color: #edf0f6;
+        position: absolute;
+        border-radius: 20px;
+        border: 5px solid #130939;
+        z-index: 2;
+        top: 40px;
+        left: 122px;
+      }
+      .instagram__header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .instagram__header .instagram__logo {
+        margin-top: 25px;
+      }
+      .instagram__header .instagram__icon i {
+        margin-top: 35px;
+        margin-right: 10px;
+      }
+      .instagram__friends {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .instagram__friends img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px grey;
+        margin-bottom: 20px;
+      }
+
+      .instagram__news {
+        display: flex;
+        width: 100%;
+        height: 60%;
+        justify-content: center;
+        align-items: center;
+      }
+      .news__box {
+        background-color: white;
+        width: 90%;
+        height: 100%;
+        border-radius: 20px;
+      }
+      .news__header img {
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        margin-right: 5px;
+      }
+
+      .news__header {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .news__header i {
+        justify-content: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="background__green-size">
+        <div class="background__green">
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+          <div class="background__green-dot"></div>
+        </div>
+      </div>
+      <div class="background__white-size">
+        <div class="background__white">
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+          <div class="background__white-dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="instagram__feed">
+      <header class="instagram__header">
+        <div class="instagram__logo">
+          <img src="images/logo.JPG" />
+        </div>
+        <div class="instagram__icon">
+          <i class="fas fa-tv"></i>
+          <i class="far fa-paper-plane"></i>
+        </div>
+      </header>
+
+      <div class="instagram__friends">
+        <img src="images/photo_1.jpg" />
+        <img src="images/photo_2.jpg" />
+        <img src="images/photo_3.jpg" />
+        <img src="images/photo_4.jpg" />
+        <img src="images/photo_5.jpg" />
+      </div>
+
+      <div class="instagram__news">
+        <div class="news__box">
+          <div class="news__header">
+            <img src="images/photo_1.jpg" class="news__header-profile" />
+            <span class="news__header-name">SewookJung</span>
+            <span class="news__header-time">5 min</span>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

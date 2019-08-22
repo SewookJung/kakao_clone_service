@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap");
+@import "reset.css";
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone {
+  width: 340px;
+  height: 700px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  border: 7px solid #2698f9;
+}
+
+.phone .screen {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.screen .status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.status-bar .status-bar__icons i {
+  margin-right: 1px;
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+}
+
+.screen .profile__bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  font-weight: 600;
+  color: #282828;
+}
+
+.profile .profile__information {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile__information .profile__photo {
+  width: 65px;
+  height: 65px;
+  background-image: url(../images/profile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile__information .profile__name {
+  font-weight: 600;
+  color: #1894f9;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.profile__information .profile__live {
+  color: #282828;
+  font-size: 14px;
+}
+
+.profile .profile__btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile__btn .profile__btn-follow {
+  width: 49%;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(140, 140, 140, 1);
+  color: #282828;
+  font-weight: 600;
+}
+
+.profile__btn .profile__btn-message {
+  width: 49%;
+  height: 50px;
+  background-color: #2799fa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(140, 140, 140, 1);
+  color: white;
+  font-weight: 600;
+}
+
+.profile .profile__contents {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile__contents .profile__content-Followers,
+.profile__content-Following,
+.profile__content-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #282828;
+  font-size: 14px;
+}
+
+.screen .tab-bar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.tab-bar .tab-bar__list {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.tab-bar__list .tab-bar__tab:nth-child(1) {
+  color: #7fc2f9;
+}
