@@ -1,0 +1,29 @@
+.settings {
+  padding-top: 30px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.settings i {
+  margin-right: 20px;
+}
+
+.settings .settings__header,
+.settings .settings__main {
+  padding-bottom: 20px;
+}
+
+.setting .setting__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.setting .setting__column {
+  display: flex;
+  align-items: center;
+}
+
+.setting .setting__version {
+  font-size: 14px;
+  opacity: 0.7;
+}

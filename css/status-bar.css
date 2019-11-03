@@ -1,0 +1,14 @@
+.status__bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: #656565;
+}
+
+.status__bar i {
+  font-size: 14px;
+}
+
+.status__bar-column .status__bar-battery-level {
+  margin-left: 5px;
+}
